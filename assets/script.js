@@ -9,9 +9,7 @@ const welcomeText = document.querySelector('.welcome-text');
 const welcomeLinks = document.querySelector('.welcome-links');
 const navBar = document.querySelector('.navbar');
 const body = document.querySelector('body');
-
 const letters = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ';
-
 const welcomeTitle = document.querySelector('h1');
 const introText = document.querySelector('.introText');
 
@@ -55,13 +53,22 @@ const welcomeInit = async () => {
   welcomeText.classList.toggle('fade');
   welcomeButton.classList.toggle('fade');
   welcomeLinks.classList.toggle('fade');
+  welcomeContainer.classList.toggle('fade');
   //   await delay(500);
   welcomeText.classList.toggle('hidden');
   welcomeButton.classList.toggle('hidden');
   welcomeSection.classList.toggle('hidden');
   welcomeLinks.classList.toggle('hidden');
   navBar.classList.toggle('hidden');
+  welcomeContainer.classList.toggle('hidden');
   // body.classList.toggle('bodyGradient');
   //   await delay(1500);
   landingContainer.classList.toggle('hidden');
 };
+
+// let typed = new typed('.autoType', {
+//   strings: ['Hei', 'Hello'],
+//   typeSpeed: 150,
+//   backSpeed: 150,
+//   loop: true,
+// });

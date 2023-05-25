@@ -46,7 +46,7 @@ body::-webkit-scrollbar-thumb {
   width: 55rem;
   top: -20rem;
   left: -20rem;
-  filter: blur(35px);
+  filter: blur(35px) opacity(0.2);
 }
 
 .blobs .blob2 {
@@ -54,16 +54,30 @@ body::-webkit-scrollbar-thumb {
   width: 35rem;
   top: 35rem;
   right: -10rem;
-  filter: blur(50px);
+  filter: blur(50px) opacity(0.2);
 }
 .blobs .blob3 {
   position: absolute;
   width: 55rem;
   top: 35rem;
   left: -25rem;
-  filter: blur(55px);
+  filter: blur(55px) opacity(0.2);
 }
 
+.blobs .blob4 {
+  position: absolute;
+  width: 15rem;
+  top: 50rem;
+  left: 8rem;
+}
+
+.blobs .blob5 {
+  position: absolute;
+  width: 15rem;
+  top: 25rem;
+  right: 15rem;
+  filter: blur(3px);
+}
 /* navbar */
 .navbar {
   position: fixed;
@@ -331,18 +345,30 @@ body::-webkit-scrollbar-thumb {
 
 .landing-text {
   color: white;
-  width: 100%;
-  height: 20vh;
+  width: 50vw;
+  min-height: 30rem;
+  margin-top: 5rem;
 
   display: flex;
   align-items: center;
-  justify-content: center;
   flex-direction: column;
 
-  /* position: relative;
-  top: 3rem; */
+  background: rgba(255, 255, 255, 0.04);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(6.2px);
+  -webkit-backdrop-filter: blur(6.2px);
+  border: 1px solid rgba(255, 255, 255, 0.18);
 
   /* outline: red dashed 1px; */
+}
+.landing-text h3 {
+  font-weight: 400;
+}
+
+.introText {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 3rem;
 }
 
 .landing-projects {
