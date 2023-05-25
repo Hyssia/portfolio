@@ -8,6 +8,7 @@ const welcomeButton = document.querySelector('.welcome-button');
 const welcomeText = document.querySelector('.welcome-text');
 const welcomeLinks = document.querySelector('.welcome-links');
 const navBar = document.querySelector('.navbar');
+const body = document.querySelector('body');
 
 const letters = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ';
 
@@ -60,6 +61,7 @@ const welcomeInit = async () => {
   welcomeSection.classList.toggle('hidden');
   welcomeLinks.classList.toggle('hidden');
   navBar.classList.toggle('hidden');
+  body.classList.toggle('bodyGradient');
   //   await delay(1500);
   landingContainer.classList.toggle('hidden');
 };
