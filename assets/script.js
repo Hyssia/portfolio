@@ -61,7 +61,7 @@ const welcomeInit = async () => {
   welcomeSection.classList.toggle('hidden');
   welcomeLinks.classList.toggle('hidden');
   navBar.classList.toggle('hidden');
-  body.classList.toggle('bodyGradient');
+  // body.classList.toggle('bodyGradient');
   //   await delay(1500);
   landingContainer.classList.toggle('hidden');
 };
