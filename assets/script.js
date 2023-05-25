@@ -7,6 +7,7 @@ const landingContainer = document.querySelector('.landing-container');
 const welcomeButton = document.querySelector('.welcome-button');
 const welcomeText = document.querySelector('.welcome-text');
 const welcomeLinks = document.querySelector('.welcome-links');
+const navBar = document.querySelector('.navbar');
 
 const letters = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ';
 
@@ -58,6 +59,7 @@ const welcomeInit = async () => {
   welcomeButton.classList.toggle('hidden');
   welcomeSection.classList.toggle('hidden');
   welcomeLinks.classList.toggle('hidden');
+  navBar.classList.toggle('hidden');
   //   await delay(1500);
   landingContainer.classList.toggle('hidden');
 };
