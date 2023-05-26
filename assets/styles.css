@@ -115,6 +115,10 @@ body::-webkit-scrollbar-thumb {
   fill: gray;
 }
 
+.logo img {
+  width: 1rem;
+}
+
 .navbar:hover .logo svg {
   transform: rotate(-180deg);
   fill: var(--color-accent);
