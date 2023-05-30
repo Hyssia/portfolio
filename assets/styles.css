@@ -498,6 +498,14 @@ body::-webkit-scrollbar-thumb {
 .contact button:hover {
   background-color: var(--color-accent);
 }
+
+.thanks {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: var(--text-primary);
+}
 /* ___________ contact form ___________ */
 
 /* small screen */
