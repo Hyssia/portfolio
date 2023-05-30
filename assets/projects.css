@@ -1,0 +1,47 @@
+:root {
+  --text-primary: #b6b6b6;
+  --text-secondary: #ececec;
+  --color-accent: #2e7775;
+
+  --color--maybe: #6649b8;
+
+  --transition-speed: 600ms;
+
+  --bg-primary: #222;
+}
+
+.projects_container {
+  outline: 1px red dotted;
+}
+
+.projectsText {
+  padding-top: 5rem;
+  width: 100%;
+  height: 30vh;
+  top: 1rem;
+  outline: 1px red dotted;
+  display: flex;
+  justify-content: center;
+}
+
+.projectsText h1 {
+  display: flex;
+  justify-content: center;
+  color: var(--text-secondary);
+  font-family: 'Montserrat', sans-serif;
+  letter-spacing: 0.4rem;
+}
+
+.brackets {
+  color: var(--color-accent);
+  font-size: 2rem;
+}
+
+.projects {
+  width: 100%;
+  margin-left: 5rem;
+  margin-right: 5rem;
+  height: 100vh;
+
+  outline: 1px yellow dotted;
+}
