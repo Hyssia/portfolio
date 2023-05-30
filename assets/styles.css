@@ -462,6 +462,7 @@ body::-webkit-scrollbar-thumb {
 .contact {
   display: flex;
   justify-content: center;
+  flex-direction: column;
 
   margin-top: 10rem;
   height: 30rem;
@@ -487,6 +488,14 @@ body::-webkit-scrollbar-thumb {
   background: transparent;
 }
 
+.contact h1 {
+  color: var(--text-primary);
+  display: flex;
+  justify-content: center;
+  font-family: 'Montserrat', sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 0.3ch;
+}
 .contact button {
   width: 100%;
   border: 1px solid rgba(255, 255, 255, 0.18);
@@ -548,6 +557,7 @@ body::-webkit-scrollbar-thumb {
   }
   .contact {
     width: 98%;
+    margin-top: 1.5rem;
   }
 }
 
