@@ -447,6 +447,59 @@ body::-webkit-scrollbar-thumb {
   }
 }
 
+/* ___________ contact form ___________ */
+.contact_container {
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  width: 100%;
+}
+.contact_container form {
+  padding: 5rem 3rem 0 3rem;
+  width: 100%;
+}
+
+.contact {
+  display: flex;
+  justify-content: center;
+
+  margin-top: 10rem;
+  height: 30rem;
+  width: 60%;
+  background: rgba(255, 255, 255, 0.04);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(6.2px);
+  -webkit-backdrop-filter: blur(6.2px);
+  border: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+.message_input {
+  line-height: 12em;
+}
+
+.input_group input {
+  width: 100%;
+  padding: 1rem;
+  outline: 0;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  color: #fff;
+  background: transparent;
+}
+
+.contact button {
+  width: 100%;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  background: transparent;
+  color: var(--text-primary);
+  padding: 1rem;
+  transition-duration: 0.3s;
+}
+.contact button:hover {
+  background-color: var(--color-accent);
+}
+/* ___________ contact form ___________ */
+
 /* small screen */
 @media screen and (max-width: 600px) {
   .welcome-section {
@@ -484,6 +537,9 @@ body::-webkit-scrollbar-thumb {
   }
   .nav-link {
     justify-content: center;
+  }
+  .contact {
+    width: 98%;
   }
 }
 

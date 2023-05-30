@@ -18,7 +18,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
     <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet" />
     <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet" />
-    <title>Document</title>
+    <title>Contact</title>
   </head>
   <body class="">
     <nav class="navbar">
@@ -143,14 +143,20 @@
         ></path>
       </svg>
     </div>
-    <div class="projects_container">
-      <div class="projectsText">
-        <h1>MY&nbsp; <span class="brackets">{</span>PROJECTS<span class="brackets">}</span></h1>
+    <div class="contact_container">
+      <div class="contact">
+        <form action="https://formsubmit.co/andershbredesen@gmail.com" method="POST">
+          <input type="hidden" name="_subject" value="Andersbredesen.dev Mail" />
+          <div class="input_group">
+            <input type="email" name="email" placeholder="Email Address" required />
+          </div>
+          <div class="input_group">
+            <input type="text" name="name" placeholder="Message" size="50" class="message_input" required />
+          </div>
+          <input type="hidden" name="_next" value="https://andersbredesen.dev/thanks.html" />
+          <button type="submit">Send</button>
+        </form>
       </div>
-
-      <section class="projects">
-        <!-- <div>test</div> -->
-      </section>
     </div>
     <script src="assets/script.js"></script>
   </body>
